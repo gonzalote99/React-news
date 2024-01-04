@@ -1,0 +1,72 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.news-container {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.news-text {
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 26px;
+  user-select: none;
+  color: #202124;
+}
+
+.info-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.info-child {
+  min-height: 1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-basis: 0%;
+  cursor: pointer;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
+
+.info-section {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.info-thumbnail {
+  position: relative;
+  width: 250px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.info-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease-in-out 0s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.info-textAndTitle {
+  margin-top: 9px;
+  width: 250px;
+  max-width: 100%;
+}
